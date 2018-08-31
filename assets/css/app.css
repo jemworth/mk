@@ -1,0 +1,210 @@
+.body,input{color:#2f3453;}
+h1,h2,h3{font-weight: 500}
+.page-content > .list{margin:0 !important }
+.blue{color:#2196f3 !important;}
+.red{color:#f44336 !important;}
+.green{color:#4caf50 !important;}
+.nowrap{white-space: nowrap;}
+
+/* Margin Padding */
+.margin-left-10{margin-left: 10px !important}
+.padding-y-25{padding-top: 25px !important;padding-bottom: 25px !important}
+
+/* Sizes */
+.h-100{height:100%;}
+.w-225{width: 225px !important}
+.w-200{width: 200px !important;max-width: 100%;}
+.page .page-content{min-height: 100vh;height: 100%}
+
+/* Content Block */
+.ios .block-strong{
+  -webkit-box-shadow: 0 15px 40px rgba(184, 184, 184, .35);
+  box-shadow: 0 15px 40px rgba(184, 184, 184, .35);
+}
+.gr-1{
+  background: -moz-linear-gradient(left, #3cafd8 0%, #d7dae8 0%, #efe3ea 100%) !important;
+  background: -webkit-linear-gradient(left, #3cafd8 0%,#d7dae8 0%,#efe3ea 100%) !important;
+  background: linear-gradient(to right, #3cafd8 0%,#d7dae8 0%,#efe3ea 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cafd8', endColorstr='#ffeaec',GradientType=1 );
+}
+.bg-color-light{
+  background:#d7dae8 !important;
+}
+.ios .block-title{
+  color:#2f3453;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+  font-size: 15px
+}
+.block-header{
+  color:#2f3453 !important;
+  font-size: 18px;
+  margin-bottom: 5px !important
+}
+.ios .block-footer{
+  color:#5d6489;
+  font-size: 16px
+}
+
+/* Overflow Block */
+.overflow-block{
+  padding:0 !important;
+  margin-bottom: 0 !important
+}
+.overflow-block .toolbar-inner{
+  position: relative;
+  flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  padding:0 15px 30px 15px !important
+}
+.block.overflow-block .block-title{
+  padding:0 15px !important
+}
+.overflow-block .tab-link-active .block-strong{
+  background:#d7dae8 !important;
+}
+
+/* Form */
+.ios .list ul{background:transparent !important;}
+.ios .list ul:before,.ios .list ul:after,.ios .list .item-inner:after,.md .item-input-focused .item-input-wrap:after,.md .input-focused:after{display: none !important}
+.item-content.item-input{margin-bottom: 5px}
+.list.icon .item-input-wrap{
+  background:#fff;
+  border-radius:50px;
+  position:relative;
+  box-shadow: 0 21px 40px rgba(97, 91, 91, 0.35);
+  margin: 0
+}
+.list.icon .item-input-wrap .icon{
+  position:absolute;
+  left:20px;
+  padding:13px 0;
+  font-size:20px;
+  color:#070e2a;
+  font-weight:600
+}
+
+.list.icon .item-input-wrap input{
+  border-radius:50px;
+  font-size:16px;
+  height:46px;
+  padding:6px 15px 6px 50px
+}
+.list.icon .item-input-wrap .input-clear-button{
+  position: absolute;
+  right:15px;
+}
+.button{
+  box-shadow: 0 21px 40px rgba(97, 91, 91, 0.35);
+}
+::placeholder {
+  color: #070e2a;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #070e2a;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #070e2a;
+}
+
+/* Navbar */
+.ios .panel-backdrop{
+  background: rgba(0, 0, 0, 0.2);
+}
+.navbar{
+  height:50px !important;
+}
+.navbar .title {
+  font-weight: 400 !important;
+  color: #070e2a;
+}
+.brand-icon{
+  position:relative;
+  width: 23px;
+  display:inline-block;
+  height: 26px;
+}
+.brand-icon i{
+  content:'';
+  display:block;
+  width:100%;
+  height:2px;
+  position:absolute;
+  top: 3px;
+  left:0;
+  background:#070e2a;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.brand-icon i:after{
+  content:'';
+  display:block;
+  width:40%;
+  height:2px;
+  position:absolute;
+  top: 14px;
+  left:0;
+  background:#070e2a;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.brand-icon i:before{
+  content:'';
+  display:block;
+  width: 70%;
+  height:2px;
+  position:absolute;
+  top: 7px;
+  left:0;
+  background:#070e2a;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* Today */
+.today{
+  position:relative;
+  height: 67px;
+  width: 45vw;
+  float: right
+}
+
+#todaySales{
+  position:absolute;
+  top:0;
+  right:0;
+  z-index: 0;
+  max-height:94px;
+}
+
+@media(max-width: 325px){
+  .today{width: 35vw}
+}
+
+/* Progressbar */
+.c-progressbar{
+  border-radius:100%;
+  display:inline-block;
+  background:rgba(255, 255, 255, .30);
+  padding:8px;
+  position:relative;
+  width: 90px;
+  height:90px;
+  margin-bottom: 5px
+}
+.c-progressbar strong{
+  font-size:24px;
+  left:50%;
+  font-weight:500
+}
+.c-progressbar strong i{
+  font-size:18px;
+}
