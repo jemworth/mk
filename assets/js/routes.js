@@ -25,12 +25,14 @@ routes = [
 
         // Fill this tab content from content string
         content: `
-          <div class="block block-strong inset">
+          <div class="block-strong inset">
             <div class="list">
               <ul>
                 <li>
                   <div class="item-content">
-                    <div class="item-media"><i class="icon icon-f7"></i></div>
+                    <div class="item-media">
+                      <span class="icon">Jan</span>
+                    </div>
                     <div class="item-inner">
                       <div class="item-title">Ivan Petrov</div>
                       <div class="item-after">CEO</div>
