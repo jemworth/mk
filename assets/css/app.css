@@ -262,11 +262,10 @@ h1,h2,h3{font-weight: 500}
   padding:0;
 }
 .menu-footer > .list a{
-  border-top:1px solid #a6aece;
+  border-top:1px solid #f5f5f5;
   width:100%;
   background:transparent
 }
-
 .panel .item-media i.icon{
   font-size:18px;
   color:#c6c9d8
