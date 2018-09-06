@@ -28,6 +28,200 @@ var mainView = app.views.create('.view-main', {
   url: '/'
 });
 
+// Circle Progressbar
+
+// Today diesel
+var tdbar = new ProgressBar.Circle('#td-inv', {
+  color: '#2196f3',
+  // This has to be the same size as the maximum width to
+  // prevent clipping
+  strokeWidth: 4,
+  trailWidth: 1,
+  easing: 'easeInOut',
+  duration: 1400,
+  text: {
+    autoStyleContainer: false
+  },
+  from: { color: '#2196f3', width: 5 },
+  to: { color: '#2196f3', width: 5 },
+  // Set default step function for all animate calls
+  step: function(state, circle) {
+    circle.path.setAttribute('stroke', state.color);
+    circle.path.setAttribute('stroke-width', state.width);
+
+    var value = Math.round(circle.value() * 100);
+    if (value === 0) {
+      circle.setText('' + '%');
+    } else {
+      circle.setText('<strong>' + value + '</strong><i>%</i>');
+    }
+
+  },
+  trailColor: '#b3e5fc'
+});
+
+tdbar.text.style.fontSize = '18px';
+tdbar.animate(0.75);
+
+// Today premium
+var tpbar = new ProgressBar.Circle('#tp-inv', {
+  color: '#f44336',
+  // This has to be the same size as the maximum width to
+  // prevent clipping
+  strokeWidth: 4,
+  trailWidth: 1,
+  easing: 'easeInOut',
+  duration: 1400,
+  text: {
+    autoStyleContainer: false
+  },
+  from: { color: '#f44336', width: 5 },
+  to: { color: '#f44336', width: 5 },
+  // Set default step function for all animate calls
+  step: function(state, circle) {
+    circle.path.setAttribute('stroke', state.color);
+    circle.path.setAttribute('stroke-width', state.width);
+
+    var value = Math.round(circle.value() * 100);
+    if (value === 0) {
+      circle.setText('' + '%');
+    } else {
+      circle.setText('<strong>' + value + '</strong><i>%</i>');
+    }
+
+  },
+  trailColor: '#ffcdd2'
+});
+tpbar.text.style.fontSize = '18px';
+tpbar.animate(0.5);
+
+// Today unleaded
+var tubar = new ProgressBar.Circle('#tu-inv', {
+  color: '#4caf50',
+  // This has to be the same size as the maximum width to
+  // prevent clipping
+  strokeWidth: 8,
+  trailWidth: 1,
+  easing: 'easeInOut',
+  duration: 1400,
+  text: {
+    autoStyleContainer: false
+  },
+  from: { color: '#4caf50', width: 5 },
+  to: { color: '#4caf50', width: 5 },
+  // Set default step function for all animate calls
+  step: function(state, circle) {
+    circle.path.setAttribute('stroke', state.color);
+    circle.path.setAttribute('stroke-width', state.width);
+
+    var value = Math.round(circle.value() * 100);
+    if (value === 0) {
+      circle.setText('' + '<i>%</i>');
+    } else {
+      circle.setText('<strong>' + value + '</strong><i>%</i>');
+    }
+  },
+  trailColor: '#c8e6c9'
+});
+tubar.text.style.fontSize = '18px';
+tubar.animate(0.25);
+
+// January total diesel
+var j1tdbar = new ProgressBar.Circle('#j1td-inv', {
+  color: '#2196f3',
+  // This has to be the same size as the maximum width to
+  // prevent clipping
+  strokeWidth: 10,
+  trailWidth: 1,
+  easing: 'easeInOut',
+  duration: 1400,
+  text: {
+    autoStyleContainer: false
+  },
+  from: { color: '#2196f3', width: 5 },
+  to: { color: '#2196f3', width: 5 },
+  // Set default step function for all animate calls
+  step: function(state, circle) {
+    circle.path.setAttribute('stroke', state.color);
+    circle.path.setAttribute('stroke-width', state.width);
+
+    var value = Math.round(circle.value() * 100);
+    if (value === 0) {
+      circle.setText('' + '%');
+    } else {
+      circle.setText('<strong>' + value + '</strong><i>%</i>');
+    }
+
+  },
+  trailColor: '#b3e5fc'
+});
+
+j1tdbar.text.style.fontSize = '18px';
+j1tdbar.animate(0.75);
+
+// January Total premium
+var j1tpbar = new ProgressBar.Circle('#j1tp-inv', {
+  color: '#f44336',
+  // This has to be the same size as the maximum width to
+  // prevent clipping
+  strokeWidth: 10,
+  trailWidth: 1,
+  easing: 'easeInOut',
+  duration: 1400,
+  text: {
+    autoStyleContainer: false
+  },
+  from: { color: '#f44336', width: 5 },
+  to: { color: '#f44336', width: 5 },
+  // Set default step function for all animate calls
+  step: function(state, circle) {
+    circle.path.setAttribute('stroke', state.color);
+    circle.path.setAttribute('stroke-width', state.width);
+
+    var value = Math.round(circle.value() * 100);
+    if (value === 0) {
+      circle.setText('' + '%');
+    } else {
+      circle.setText('<strong>' + value + '</strong><i>%</i>');
+    }
+
+  },
+  trailColor: '#ffcdd2'
+});
+j1tpbar.text.style.fontSize = '18px';
+j1tpbar.animate(0.5);
+
+// January Total unleaded
+var j1tubar = new ProgressBar.Circle('#j1tu-inv', {
+  color: '#4caf50',
+  // This has to be the same size as the maximum width to
+  // prevent clipping
+  strokeWidth: 10,
+  trailWidth: 1,
+  easing: 'easeInOut',
+  duration: 1400,
+  text: {
+    autoStyleContainer: false
+  },
+  from: { color: '#4caf50', width: 5 },
+  to: { color: '#4caf50', width: 5 },
+  // Set default step function for all animate calls
+  step: function(state, circle) {
+    circle.path.setAttribute('stroke', state.color);
+    circle.path.setAttribute('stroke-width', state.width);
+
+    var value = Math.round(circle.value() * 100);
+    if (value === 0) {
+      circle.setText('' + '<i>%</i>');
+    } else {
+      circle.setText('<strong>' + value + '</strong><i>%</i>');
+    }
+  },
+  trailColor: '#c8e6c9'
+});
+j1tubar.text.style.fontSize = '18px';
+j1tubar.animate(1);
+
 // Today chart - Chart.js
 var mode = 'index'; // for all chart.js
 
@@ -204,102 +398,3 @@ var chartInstance = new Chart(chart, {
   data: data,
   options: options
 });
-
-
-// Circle Progressbar
-
-// Today diesel
-var tdbar = new ProgressBar.Circle('#td-inv', {
-  color: '#2196f3',
-  // This has to be the same size as the maximum width to
-  // prevent clipping
-  strokeWidth: 4,
-  trailWidth: 1,
-  easing: 'easeInOut',
-  duration: 1400,
-  text: {
-    autoStyleContainer: false
-  },
-  from: { color: '#2196f3', width: 5 },
-  to: { color: '#2196f3', width: 5 },
-  // Set default step function for all animate calls
-  step: function(state, circle) {
-    circle.path.setAttribute('stroke', state.color);
-    circle.path.setAttribute('stroke-width', state.width);
-
-    var value = Math.round(circle.value() * 100);
-    if (value === 0) {
-      circle.setText('' + '%');
-    } else {
-      circle.setText('<strong>' + value + '</strong><i>%</i>');
-    }
-
-  },
-  trailColor: '#b3e5fc'
-});
-tdbar.text.style.fontSize = '18px';
-tdbar.animate(0.75);
-
-// Today premium
-var tpbar = new ProgressBar.Circle('#tp-inv', {
-  color: '#f44336',
-  // This has to be the same size as the maximum width to
-  // prevent clipping
-  strokeWidth: 4,
-  trailWidth: 1,
-  easing: 'easeInOut',
-  duration: 1400,
-  text: {
-    autoStyleContainer: false
-  },
-  from: { color: '#f44336', width: 5 },
-  to: { color: '#f44336', width: 5 },
-  // Set default step function for all animate calls
-  step: function(state, circle) {
-    circle.path.setAttribute('stroke', state.color);
-    circle.path.setAttribute('stroke-width', state.width);
-
-    var value = Math.round(circle.value() * 100);
-    if (value === 0) {
-      circle.setText('' + '%');
-    } else {
-      circle.setText('<strong>' + value + '</strong><i>%</i>');
-    }
-
-  },
-  trailColor: '#ffcdd2'
-});
-tpbar.text.style.fontSize = '18px';
-tpbar.animate(0.5);
-
-// Today unleaded
-var tubar = new ProgressBar.Circle('#tu-inv', {
-  color: '#4caf50',
-  // This has to be the same size as the maximum width to
-  // prevent clipping
-  strokeWidth: 4,
-  trailWidth: 1,
-  easing: 'easeInOut',
-  duration: 1400,
-  text: {
-    autoStyleContainer: false
-  },
-  from: { color: '#4caf50', width: 5 },
-  to: { color: '#4caf50', width: 5 },
-  // Set default step function for all animate calls
-  step: function(state, circle) {
-    circle.path.setAttribute('stroke', state.color);
-    circle.path.setAttribute('stroke-width', state.width);
-
-    var value = Math.round(circle.value() * 100);
-    if (value === 0) {
-      circle.setText('' + '<i>%</i>');
-    } else {
-      circle.setText('<strong>' + value + '</strong><i>%</i>');
-    }
-  },
-  trailColor: '#c8e6c9'
-});
-tubar.text.style.fontSize = '18px';
-tubar.animate(0.25);
-

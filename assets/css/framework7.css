@@ -978,7 +978,7 @@ html.with-statusbar.device-iphone-x .framework7-root {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0 15px;
+  padding: 0;
 }
 .ios .navbar ~ *:not(.no-navbar) .page-content,
 .ios .navbar ~ .page-content {
@@ -2793,7 +2793,7 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .ios .block {
   margin: 25px 0;
   padding: 0 15px;
-  color: #6d6d72;
+  color: #2f3453;
 }
 .ios .block-title {
   text-transform: uppercase;
@@ -28690,7 +28690,7 @@ iframe#viAd {
   width: 100% !important;
 }
 .ios .padding {
-  padding: 15px !important;
+  padding: 12px 13px !important;
 }
 .ios .padding-top {
   padding-top: 15px !important;

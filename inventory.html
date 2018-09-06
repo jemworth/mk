@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#2196f3">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <title>Kitrol Inventory</title>
+  <link rel="stylesheet" href="assets/css/framework7.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/icon/icons.css">
+  <link rel="stylesheet" href="assets/font/fonts.css">
+</head>
+<body>
+
+  <div id="app">
+
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar"></div>
+
+    <!-- Left Navigation -->
+    <div class="panel panel-left panel-cover">
+      <div class="block">
+        <div class="list">
+          <ul>
+            <li>
+              <a href="/dashboard/" class="item-link item-content panel-close">
+                <div class="item-media"><i class="icon la la-bar-chart"></i></div>
+                <div class="item-inner item-cell">
+                  <div class="item-title">Dashboard</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="/sales-report/" class="item-link list-button panel-close">Sales Report</a>
+            </li>
+            <li>
+              <a href="/inventory/" class="item-link list-button panel-close">Inventory</a>
+            </li>
+            <li>
+              <a href="/deposit/" class="item-link list-button panel-close">Deposit</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main container -->
+    <div class="view view-main">
+
+      <!-- Page -->
+      <div class="page" data-name="sales-report">
+
+        <!-- fixed navbar -->
+        <div class="navbar">
+          <div class="navbar-inner sliding">
+            <div class="left">
+              <a class="panel-open padding" href="#" data-panel="left">
+                <i class="material-icons">sort</i>
+              </a>
+            </div>
+            <div class="title">Inventory</div>
+          </div>
+        </div>
+
+        <!-- Page content -->
+        <div class="page-content ptr-content">
+
+          <!-- Pull Refresh -->
+          <div class="ptr-preloader">
+            <div class="preloader"></div>
+            <div class="ptr-arrow"></div>
+          </div>
+
+          <div class="list">
+            <div class="block overflow-block">
+              <div class="tabbar-scrollable">
+                <div class="row toolbar-inner">
+                  <div class="col w-225">
+                    <div class="block-strong inset bg-color-light text-align-center margin-right">
+                      <div id="td-inv" class="c-progressbar"></div>
+                      <div class="block-header">Diesel</div>
+                      <div class="content-block-inner w-200"><span class="blue">7,500 L</span> / 15, 000 L</div>
+                    </div>
+                  </div>
+                  <div class="col w-225">
+                    <div class="block-strong inset bg-color-light text-align-center margin-right">
+                      <div id="tp-inv" class="c-progressbar"></div>
+                      <div class="block-header">Premium</div>
+                      <div class="content-block-inner w-200"><span class="red">7,500 L</span> / 15, 000 L</div>
+                    </div>
+                  </div>
+                  <div class="col w-225">
+                    <div class="block-strong inset bg-color-light text-align-center margin-right">
+                      <div id="tu-inv" class="c-progressbar"></div>
+                      <div class="block-header">Unleaded</div>
+                      <div class="content-block-inner w-200"><span class="green">7,500 L</span> / 15, 000 L</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block overflow-block tab-nav no-margin-top">
+              <div class="block-title">Monthly Inventory</div>
+                <div class="tabbar-scrollable">
+                  <div class="row toolbar-inner">
+                    <a href="./" class="no-padding" data-route-tab-id="tab-1">
+                      <div class="col w-200">
+                        <div class="block-strong inset margin-right">
+                          <div class="block-header">January <div class="item-after">2018</div></div>
+                          <div class="content-block-inner"><h4 class="title">36,000 L</h4></div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="./tab-2/" class="" data-route-tab-id="tab-2">
+                      <div class="col w-200">
+                        <div class="block-strong inset margin-right">
+                          <div class="block-header">February <div class="item-after">2018</div></div>
+                          <div class="content-block-inner"><h4 class="title">216,000 L</h4></div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="./tab-3/" class="" data-route-tab-id="tab-3">
+                      <div class="col w-200">
+                        <div class="block-strong inset margin-right">
+                          <div class="block-header">March <div class="item-after">2018</div></div>
+                          <div class="content-block-inner"><h4 class="title">2,136,000 L</h4></div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="./tab-4/" class="" data-route-tab-id="tab-4">
+                      <div class="col w-200">
+                        <div class="block-strong inset margin-right">
+                          <div class="block-header">April <div class="item-after">2018</div></div>
+                          <div class="content-block-inner"><h4 class="title">36,000 L</h4></div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="./tab-5/" class="" data-route-tab-id="tab-5">
+                      <div class="col w-200">
+                        <div class="block-strong inset margin-right">
+                          <div class="block-header">May <div class="item-after">2018</div></div>
+                          <div class="content-block-inner"><h4 class="title">16,000 L</h4></div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="./tab-6/" class="" data-route-tab-id="tab-6">
+                      <div class="col w-200">
+                        <div class="block-strong inset margin-right">
+                          <div class="block-header">June <div class="item-after">2018</div></div>
+                          <div class="content-block-inner"><h4 class="title">316,000 L</h4></div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="./tab-7/" class="" data-route-tab-id="tab-7">
+                      <div class="col w-200">
+                        <div class="block-strong inset margin-right">
+                          <div class="block-header">July <div class="item-after">2018</div></div>
+                          <div class="content-block-inner"><h4 class="title">1,362,000 L</h4></div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="./tab-8/" class="" data-route-tab-id="tab-8">
+                      <div class="col w-200">
+                        <div class="block-strong inset margin-right">
+                          <div class="block-header">August <div class="item-after">2018</div></div>
+                          <div class="content-block-inner"><h4 class="title">36,000 L</h4></div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="./tab-9/" class="" data-route-tab-id="tab-9">
+                      <div class="col w-200">
+                        <div class="block-strong inset margin-right">
+                          <div class="block-header">September <div class="item-after">2018</div></div>
+                          <div class="content-block-inner"><h4 class="title">16,000 L</h4></div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="./tab-10/" class="" data-route-tab-id="tab-10">
+                      <div class="col w-200">
+                        <div class="block-strong inset margin-right">
+                          <div class="block-header">October <div class="item-after">2018</div></div>
+                          <div class="content-block-inner"><h4 class="title">500 L</h4></div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="./tab-11/" class="" data-route-tab-id="tab-11">
+                      <div class="col w-200">
+                        <div class="block-strong inset margin-right">
+                          <div class="block-header">November <div class="item-after">2018</div></div>
+                          <div class="content-block-inner"><h4 class="title">36,000 L</h4></div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="./tab-12/" class="" data-route-tab-id="tab-12">
+                      <div class="col w-200">
+                        <div class="block-strong inset margin-right">
+                          <div class="block-header">December <div class="item-after">2018</div></div>
+                          <div class="content-block-inner"><h4 class="title">36,000 L</h4></div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+              </div>
+            </div>
+            <div class="tabs-animated-wrap">
+              <div class="tabs tabs-routable">
+                <div class="tab tab-active" id="tab-1">
+                  <div class="block no-margin-top">
+                    <div class="block-title">January Inventory</div>
+                    <div class="block block-strong inset no-margin no-padding">
+                      <div class="list-header">
+                        <div class="item-cell">
+                          <div class="item-row">
+                            <div class="item-cell"><div class="item-after">Diesel</div></div>
+                            <div class="item-cell"><div class="item-after">Premium</div></div>
+                            <div class="item-cell"><div class="item-after">Unleaded</div></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="list full-width no-margin">
+                        <ul>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 1</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 2</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 3</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 4</div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 5</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 6</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 7</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 8</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 9</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 10</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 11</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 12</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 13</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 14</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 15</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 16</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 17</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 18</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 19</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 20</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 21</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 22</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 23</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 24</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 25</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 26</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 27</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 28</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 29</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 30</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="item-content">
+                              <div class="item-inner item-cell">
+                                <div class="item-row margin-top-5">
+                                  <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">12,000 L</div></div>
+                                  <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                                </div>
+                                <div class="item-footer">January 31</div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="list-footer">
+                        <div class="item-inner no-padding-right item-cell">
+                          <div class="item-title">Total</div>
+                          <div class="item-row margin-top-5">
+                            <div class="item-cell">
+                              <div class="text-align-center">
+                                <div id="j1td-inv" class="c-progressbar sm"></div>
+                                <div class="content-block-inner">7,500 L<br><span class="item-footer">15, 000 L</span></div>
+                              </div>
+                            </div>
+                            <div class="item-cell">
+                              <div class="text-align-center">
+                                <div id="j1tp-inv" class="c-progressbar sm"></div>
+                                <div class="content-block-inner">7,500 L<br><span class="item-footer">15, 000 L</span></div>
+                              </div>
+                            </div>
+                            <div class="item-cell">
+                              <div class="text-align-center">
+                                <div id="j1tu-inv" class="c-progressbar sm"></div>
+                                <div class="content-block-inner">7,500 L<br><span class="item-footer">15, 000 L</span></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab" id="tab-2"></div>
+                <div class="tab" id="tab-3"></div>
+                <div class="tab" id="tab-4"></div>
+                <div class="tab" id="tab-5"></div>
+                <div class="tab" id="tab-6"></div>
+                <div class="tab" id="tab-7"></div>
+                <div class="tab" id="tab-8"></div>
+                <div class="tab" id="tab-9"></div>
+                <div class="tab" id="tab-10"></div>
+                <div class="tab" id="tab-11"></div>
+                <div class="tab" id="tab-12"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+
+  <script src="assets/js/framework7.js"></script>
+  <script src="assets/js/routes.js"></script>
+
+  <!-- Display when it needed -->
+  <script src="assets/js/Chart.bundle.min.js"></script>
+  <script src="assets/js/progressbar.min.js"></script>
+  <!-- End -->
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
