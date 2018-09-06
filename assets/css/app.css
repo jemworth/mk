@@ -262,7 +262,7 @@ h1,h2,h3{font-weight: 500}
   padding:0;
 }
 .menu-footer > .list a{
-  border-top:1px solid red;
+  border-top:1px solid #a6aece;
   width:100%;
   background:transparent
 }

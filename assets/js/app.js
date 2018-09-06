@@ -20,6 +20,10 @@ var app  = new Framework7({
 
   // App routes
   routes: routes,
+  touch: {
+    // Disable fast clicks
+    fastClicks: true,
+  }
 
 });
 
@@ -27,6 +31,10 @@ var app  = new Framework7({
 var mainView = app.views.create('.view-main', {
   url: '/'
 });
+
+if (app.views.main.router.currentRoute.url="/"){
+//do some thing
+}
 
 // Circle Progressbar
 
