@@ -22,7 +22,7 @@ body {
   padding: 0;
   font-size: 14px;
   width: 100%;
-  background: #fff;
+  background: #f6f8ff;
   overflow: hidden;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -920,8 +920,8 @@ html.with-statusbar.device-iphone-x .framework7-root {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  line-height: 44px;
-  height: 44px;
+  line-height: 50px;
+  height: 50px;
 }
 .ios .navbar a.icon-only {
   width: 44px;
@@ -3757,7 +3757,7 @@ li.list-group-title:before {
 .ios .list .list-button.active-state {
   -webkit-transition-duration: 0ms;
   transition-duration: 0ms;
-  background-color: #d9d9d9;
+  background-color: #e7ecfd;
 }
 .ios .list .item-link.active-state .item-inner:after,
 .ios .list .list-button.active-state .item-inner:after {
@@ -13114,8 +13114,8 @@ html.device-android-4 .accordion-item-content {
   height: 100%;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  width: 260px;
-  background-color: #fff;
+  width: 280px;
+  background-color: #f6f8ff;
 }
 .panel.not-animated {
   -webkit-transition-duration: 0ms !important;
@@ -28690,7 +28690,7 @@ iframe#viAd {
   width: 100% !important;
 }
 .ios .padding {
-  padding: 12px 13px !important;
+  padding: 15px !important;
 }
 .ios .padding-top {
   padding-top: 15px !important;
