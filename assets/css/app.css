@@ -11,6 +11,7 @@ h1,h2,h3{font-weight: 500}
 .padding-top-5{padding-top: 5px !important;}
 .padding-y-25{padding-top: 25px !important;padding-bottom: 25px !important}
 .margin-top-5{margin-top: 5px !important}
+.margin-top-10{margin-top: 10px !important}
 
 /* Sizes */
 .h-100{height:100%;}
@@ -117,8 +118,7 @@ h1,h2,h3{font-weight: 500}
 
 /* Form */
 .ios .list ul{background:transparent !important;}
-.ios .list ul:before,.ios .list ul:after,.ios .list .item-inner:after,.md .item-input-focused .item-input-wrap:after,.md .input-focused:after{display: none !important}
-.item-content.item-input{margin-bottom: 5px}
+.ios .list ul:before,.ios .list ul:after,.ios .list.icon .item-inner:after,.list-footer .item-inner:after,.ios .list.full-width .item-inner:after,.panel .list .item-inner:after,.md .item-input-focused .item-input-wrap:after,.md .input-focused:after{display: none !important}
 .list.icon .item-input-wrap{
   background:#fff;
   border-radius:50px;
@@ -128,25 +128,42 @@ h1,h2,h3{font-weight: 500}
 }
 .list.icon .item-input-wrap .icon{
   position:absolute;
-  left:20px;
-  padding:13px 0;
-  font-size:20px;
-  color:#070e2a;
-  font-weight:600
+  left:15px;
+  padding:10px 0;
+  font-size:18px;
+  color:#c7cad8;
 }
-
+.list .item-content.item-input-focused .icon,
+.list .item-content.item-input-with-value .icon{
+  color:#070e2a
+}
 .list.icon .item-input-wrap input{
   border-radius:50px;
-  font-size:16px;
-  height:46px;
-  padding:6px 15px 6px 50px
+  font-size:14px;
+  height:40px;
+  padding:6px 15px 6px 45px
 }
 .list.icon .item-input-wrap .input-clear-button{
   position: absolute;
   right:15px;
 }
-.button{
+.button.button-raised{
   box-shadow: 0 21px 40px rgba(97, 91, 91, 0.35);
+}
+.list.no-shadow .item-input-wrap{
+  box-shadow:0 0 0;
+  border:1px solid #c7cad8;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.list.no-shadow .item-content.item-input-focused .item-input-wrap{
+  border-color:#070e2a;
+  box-shadow: 0 0 0 0.18rem rgb(198, 201, 216);
+}
+
+.list.no-shadow .item-content.item-input,
+.list.no-shadow .item-inner{
+  padding-left:0;
+  padding-right:0;
 }
 ::placeholder {
   color: #070e2a;
@@ -205,7 +222,7 @@ h1,h2,h3{font-weight: 500}
   border-radius: 0 0 7px 7px
 }
 .list-header{
-  padding:15px !important;
+  padding:10px 15px !important;
   background:#ebedf7;
   border-radius: 7px 7px 0 0;
   font-size: 14px;
@@ -227,10 +244,19 @@ h1,h2,h3{font-weight: 500}
   display: -webkit-box;
   max-height: 42px; 
 }
-.w-icon .item-media{
+.list.w-icon.view .item-content{
+  padding:0;
+  margin-bottom:5px
+}
+.list.w-icon.view .item-content .item-text{
+  position: relative;
+  display: block;
+  max-height:100%
+}
+.list.w-icon .item-media{
   background:#ebedf7;
   border-radius:100%;
-  padding:5px !important;
+  padding:6px;
   text-align:center;
 }
 .w-icon .item-media .icon{
@@ -245,16 +271,18 @@ h1,h2,h3{font-weight: 500}
 }
 .list.profile .item-content{
   margin:auto;
-  max-width:140px;
-  height:140px;
+  max-width:130px;
+  height:130px;
   border-radius:50%;
-  border:2px solid #c6c9d8;
+  border: 1px solid #070e2a;
   padding:0;
+  -webkit-box-shadow: 0 15px 30px rgba(184, 184, 184, .35);
+  box-shadow: 0 15px 30px rgba(184, 184, 184, .35);
 }
 .list.profile .item-content .item-media{
   padding:0;
   max-width:100%;
-  height:140px;
+  height:130px;
 }
 .list.profile .item-content .user{
   width:100%;
@@ -267,18 +295,9 @@ h1,h2,h3{font-weight: 500}
   background:rgba(0, 0, 0, 0.3)
 }
 .list.profile .item-content .icon i{
-  margin-top:55px;
+  margin-top:50px;
   font-size:36px;
   color:#ffffff
-}
-.list.no-shadow .item-input-wrap{
-  box-shadow:0 0 0;
-  border:1px solid #c7cad8
-}
-.list.no-shadow .item-content.item-input,
-.list.no-shadow .item-inner{
-  padding-left:0;
-  padding-right:0;
 }
 
 /* Navbar */
@@ -363,8 +382,8 @@ h1,h2,h3{font-weight: 500}
 }
 .with-panel.with-panel-left-reveal .view.view-main,
 .with-panel.with-panel-left-transitioning .view.view-main{
-  margin: 10% 0;
-  height:90%;
+  margin: 20% 0;
+  height:80%;
   -webkit-box-shadow: -5px 0 30px rgba(198, 201, 216, 0.6);
   box-shadow: -5px 0 30px rgba(198, 201, 216, 0.6);
   border-radius:5px;

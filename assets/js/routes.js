@@ -499,11 +499,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 1</div>
+                        <div class="item-footer margin-top-10">January 1 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -511,11 +511,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 2</div>
+                        <div class="item-footer margin-top-10">January 2 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -523,11 +523,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 3</div>
+                        <div class="item-footer margin-top-10">January 3<span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -535,22 +535,22 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 4</div>
+                        <div class="item-footer margin-top-10">January 4 <span class="float-right">136,000 Liters</span></div>
                     </div>
                   </li>
                   <li>
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 5</div>
+                        <div class="item-footer margin-top-10">January 5 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -558,11 +558,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 6</div>
+                        <div class="item-footer margin-top-10">January 6 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -570,11 +570,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 7</div>
+                        <div class="item-footer margin-top-10">January 7 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -582,11 +582,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 8</div>
+                        <div class="item-footer margin-top-10">January 8 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -594,11 +594,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 9</div>
+                        <div class="item-footer margin-top-10">January 9 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -606,11 +606,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 10</div>
+                        <div class="item-footer margin-top-10">January 10 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -618,11 +618,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 11</div>
+                        <div class="item-footer margin-top-10">January 11 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -630,11 +630,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 12</div>
+                        <div class="item-footer margin-top-10">January 12 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -642,11 +642,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 13</div>
+                        <div class="item-footer margin-top-10">January 13 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -654,11 +654,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 14</div>
+                        <div class="item-footer margin-top-10">January 14 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -666,11 +666,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 15</div>
+                        <div class="item-footer margin-top-10">January 15 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -678,11 +678,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 16</div>
+                        <div class="item-footer margin-top-10">January 16 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -690,11 +690,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 17</div>
+                        <div class="item-footer margin-top-10">January 17 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -702,11 +702,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 18</div>
+                        <div class="item-footer margin-top-10">January 18 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -714,11 +714,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 19</div>
+                        <div class="item-footer margin-top-10">January 19 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -726,11 +726,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 20</div>
+                        <div class="item-footer margin-top-10">January 20 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -738,11 +738,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 21</div>
+                        <div class="item-footer margin-top-10">January 21 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -750,11 +750,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 22</div>
+                        <div class="item-footer margin-top-10">January 22 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -762,11 +762,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 23</div>
+                        <div class="item-footer margin-top-10">January 23 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -774,11 +774,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 24</div>
+                        <div class="item-footer margin-top-10">January 24 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -786,11 +786,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 25</div>
+                        <div class="item-footer margin-top-10">January 25 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -798,11 +798,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 26</div>
+                        <div class="item-footer margin-top-10">January 26 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -810,11 +810,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 27</div>
+                        <div class="item-footer margin-top-10">January 27 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -822,11 +822,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 28</div>
+                        <div class="item-footer margin-top-10">January 28 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -834,11 +834,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 29</div>
+                        <div class="item-footer margin-top-10">January 29 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -846,11 +846,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 30</div>
+                        <div class="item-footer margin-top-10">January 30 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>
@@ -858,11 +858,11 @@ routes = [
                     <div class="item-content">
                       <div class="item-inner item-cell">
                         <div class="item-row margin-top-5">
-                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">12,000 L</div></div>
-                          <div class="item-cell"><div class="item-after">2,000 L</div></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">122,000 L</div><span data-progress="70" class="progressbar color-blue margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">12,000 L</div><span data-progress="40" class="progressbar color-red margin-top-5"></span></div>
+                          <div class="item-cell"><div class="item-after no-padding-left">2,000 L</div><span data-progress="30" class="progressbar color-green margin-top-5"></span></div>
                         </div>
-                        <div class="item-footer">January 31</div>
+                        <div class="item-footer margin-top-10">January 31 <span class="float-right">136,000 Liters</span></div>
                       </div>
                     </div>
                   </li>

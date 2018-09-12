@@ -3778,7 +3778,7 @@ li.list-group-title:before {
 }
 .ios .list .item-text {
   font-size: 15px;
-  color: #8e8e93;
+  color: #070e2a;
   line-height: 21px;
   max-height: 42px;
 }
@@ -5595,9 +5595,9 @@ button {
 }
 .ios .button.button-big,
 .ios .button.button-big-ios {
-  font-size: 17px;
-  height: 46px;
-  line-height: 44px;
+  font-size: 14px;
+  height: 44px;
+  line-height: 40px;
 }
 .ios .button.button-small,
 .ios .button.button-small-ios {
@@ -10014,8 +10014,8 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .framework7-root > 
 }
 .ios .progressbar,
 .ios .progressbar-infinite {
-  height: 2px;
-  background: #b6b6b6;
+  height: 3px;
+  background: #ebedf7;
   -webkit-transform-origin: center top;
   transform-origin: center top;
   border-radius: 2px;
@@ -10094,22 +10094,22 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .framework7-root > 
   background: #000000;
 }
 .ios .progressbar.color-red span {
-  background: #ff3b30;
+  background: #f44336;
 }
 .ios .progressbar-infinite.color-red:before {
-  background: #ff3b30;
+  background: #f44336;
 }
 .ios .progressbar.color-green span {
-  background: #4cd964;
+  background: #4caf50;
 }
 .ios .progressbar-infinite.color-green:before {
-  background: #4cd964;
+  background: #4caf50;
 }
 .ios .progressbar.color-blue span {
-  background: #070e2a;
+  background: #2196f3;
 }
 .ios .progressbar-infinite.color-blue:before {
-  background: #070e2a;
+  background: #2196f3;
 }
 .ios .progressbar.color-pink span {
   background: #ff2d55;
